@@ -1,9 +1,23 @@
+// import { defineConfig } from "vite";
+// import react from "@vitejs/plugin-react";
+
+// export default defineConfig({
+//   plugins: [react()],
+//   base: "/mostafa-gaber-portfolio/",
+//   build: {
+//     target: "es2020",
+//     cssCodeSplit: true,
+//     sourcemap: false,
+//   },
+// });
+
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/mostafa-gaber-portfolio/",
+  base: "/",
   build: {
     target: "es2020",
     cssCodeSplit: true,
