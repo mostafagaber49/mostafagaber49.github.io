@@ -26,6 +26,7 @@ const projects = [
   { name:"Job Board", type:"Recruitment Backend", desc:"Job marketplace API for users, companies, jobs, applications and saved jobs with protected REST workflows.", stack:["NestJS","TypeScript","MongoDB","JWT","Swagger"], repo:"https://github.com/mostafagaber49/jop-board", demo:"" },
   { name:"Saraha", type:"Anonymous Messaging API", desc:"Anonymous messaging backend with accounts, protected routes, validation, repositories and MongoDB schemas.", stack:["NestJS","TypeScript","MongoDB","JWT"], repo:"https://github.com/mostafagaber49/Saraha-app-Anonymous-Messaging-API", demo:"" },
   { name:"Movie App", type:"Backend Project", desc:"A portfolio project demonstrating API-focused backend development and structured application design.", stack:["NestJS","TypeScript","MongoDB"], repo:"https://github.com/mostafagaber49/Movie-app", demo:"" },
+  { name:"Weather App", type:"Weather API", desc:"Weather backend with city search, current conditions, hourly and 7-day forecasts, built with a modular NestJS architecture.", stack:["NestJS","TypeScript"], repo:"https://github.com/mostafagaber49/weather-app", demo:"", flow:["Client","API"] },
 ];
 
 const NAV_IDS = ["home","about","skills","projects","contact"];
