@@ -11,7 +11,7 @@ import "./styles.css";
 const Scene = lazy(() => import("./Scene.jsx"));
 
 const WHATSAPP = "201001483579";
-const CV = `${import.meta.env.BASE_URL}Mustafa_Gaber_CV.pdf`;
+const CV = `${import.meta.env.BASE_URL}Mostafa_Gaber_Backend_CV.pdf`;
 const EMAIL = "mogabee99@gmail.com";
 const links = {
   github: "https://github.com/mostafagaber49",
